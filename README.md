@@ -27,9 +27,9 @@ Datsets used in AAAI's paper [Style-transfer and Paraphrase: Looking for a Sensi
 ### All csv-files have following fields:
 - text_1 - given text
 - text_2 - random/real paraphrase of text_1
-- label_1 - score of the first expert
-- label_2 - score of the second expert
-- label_3 - score of the third expert
-- avg_score - average experts score
+- label_1 - score of the first labeller
+- label_2 - score of the second labeller
+- label_3 - score of the third labeller
+- avg_score - average labellers score
 
 All scores are in the range from 1 to 5, where 1 - "Not Similar At All" and 5 - "Highly Similar"
